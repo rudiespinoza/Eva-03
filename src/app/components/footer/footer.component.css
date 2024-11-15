@@ -1,0 +1,107 @@
+/* Contenedor principal del pie de página */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #121212;
+    color: white;
+  }
+  
+  .company-info {
+    flex: 1;
+    max-width: 250px;
+  }
+  
+  .company-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .company-info p {
+    font-size: 0.9rem;
+    color: #b3b3b3;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .contact-info {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-card {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-card i {
+    font-size: 1.5rem;
+    color: #e63946;
+    margin-bottom: 10px;
+  }
+  
+  .contact-card h3 {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .contact-card p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+  }
+  
+  .sidebar-links {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .sidebar-links h3 {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-links li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-links a {
+    color: #4a90e2; /* Azul para los enlaces */
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
+  .sidebar-links a i {
+    margin-right: 8px;
+  }
+  
+  /* Pie de página inferior */
+  .footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #666666;
+  }
+  
+  .footer-bottom a {
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  

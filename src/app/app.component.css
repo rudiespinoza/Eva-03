@@ -1,0 +1,69 @@
+/* Encabezado */
+.header {
+    background-color: rgba(5, 73, 245, 0.8); /* Fondo azul con transparencia */
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Hace que el encabezado sea fijo */
+    top: 0; /* Fija el encabezado en la parte superior */
+    width: 100%; /* Ocupa todo el ancho de la página */
+    z-index: 1000; /* Asegura que el encabezado esté encima de otros elementos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra para diferenciar del contenido */
+  }
+  
+  /* Ajuste de espacio superior para el contenido */
+  body {
+    padding-top: 80px; /* Agrega espacio para evitar que el contenido quede detrás del encabezado */
+  }
+  
+  /* Logo y texto de encabezado */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Ajusta el tamaño del logo */
+  .logo-container img {
+    width: 170px; /* Tamaño del logo */
+  }
+  
+  /* Menú de navegación */
+  .nav-menu {
+    display: flex;
+    gap: 40px; /* Ajusta el espacio entre los elementos del menú */
+    justify-content: center; /* Centra el menú de navegación */
+    flex: 1; /* Ocupa el espacio restante entre el logo y el borde derecho */
+  }
+  
+  .nav-menu a {
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-menu a .icon {
+    margin-right: 5px;
+  }
+  
+  .nav-menu a:hover {
+    color: #e5f508;
+  }
+  
+  /* Pie de página */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  

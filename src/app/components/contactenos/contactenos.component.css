@@ -1,0 +1,74 @@
+/* Contenedor principal */
+.contacto-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+  }
+  
+  /* Título y descripción */
+  .contacto-container h1 {
+    font-size: 2.5rem;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .contacto-container p {
+    font-size: 1.2rem;
+    color: #666666;
+    margin-bottom: 30px;
+  }
+  
+  /* Contenedor de mapa y formulario */
+  .contacto-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Mapa de Google */
+  .map-container {
+    flex: 1;
+    min-width: 300px;
+    height: 400px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Formulario de contacto */
+  .form-container {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-container input,
+  .form-container textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-container button {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #e63946; /* Botón rojo */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #d62839;
+  }
+  

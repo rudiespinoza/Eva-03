@@ -1,0 +1,23 @@
+<!-- Encabezado con el logo y el menú de navegación -->
+<div class="header">
+  <div class="logo-container">
+    <img src="assets/LOGO_IKOMI.png" alt="Logo IKOMI Perú" class="logo" />
+  </div>
+
+  <nav class="nav-menu">
+    <a routerLink="/"><span class="icon">🏠</span> Inicio</a>
+    <a routerLink="/nosotros"><span class="icon">🏢</span> Nosotros</a>
+    <a routerLink="/servicios"><span class="icon">🔧</span> Servicios</a>
+    <a routerLink="/producto"><span class="icon">🛠</span> Producto</a>
+    <a routerLink="/marcas"><span class="icon">🛡</span> Marcas</a>
+    <a routerLink="/contactenos"><span class="icon">📞</span> Contáctenos</a>
+  </nav>
+</div>
+
+<!-- Contenido dinámico de cada página -->
+<router-outlet></router-outlet>
+
+<!-- Pie de página -->
+<footer>
+  <p>&copy; 2024 Ikoni Perú. Todos los derechos reservados.</p>
+</footer>

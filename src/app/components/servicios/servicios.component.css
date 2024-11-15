@@ -1,0 +1,95 @@
+/* Contenedor principal y fondo */
+.servicios-container {
+    background-color: #111111; /* Fondo oscuro elegante */
+    color: #ffffff;
+    padding: 80px 20px;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); /* Efecto de corte diagonal */
+}
+
+/* Título de la Sección */
+.section-title {
+    font-size: 3.2rem;
+    color: #f8f8f8;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #e63946;
+    margin: 20px auto 40px;
+}
+
+/* Subtítulo */
+.section-subtitle {
+    font-size: 1.5rem;
+    color: #b3b3b3;
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto 50px;
+}
+
+/* Grid de servicios */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+/* Tarjeta de servicio */
+.service-card {
+    background-color: #1e1e1e; /* Fondo de tarjeta más claro */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Icono */
+.service-card .icon {
+    font-size: 2.5rem;
+    color: #e63946;
+    margin-bottom: 15px;
+}
+
+.service-card h2 {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #cccccc;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Grid de servicios */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 30px;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+    }
+}
